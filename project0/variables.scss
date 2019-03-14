@@ -1,0 +1,49 @@
+$color: darkblue;
+
+h1 {
+    color: $color;
+    text-align: center;
+}
+
+li {
+    color: $color;
+}
+
+p {
+  color: $color;
+  font-weight: bold;
+}
+
+
+h3 {
+  color: CornflowerBlue;
+  text-align: justify;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+            }
+
+th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+
+th {
+  background-color: lightgray;
+            }
+
+ol > li {
+  color: green
+}
+
+button:hover {
+  background-color: orange;
+  }
+
+.name {
+  font-weight: bold;
+}
